@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g   CMakeFiles/llvm_sol.dir/Json/SolcJsonOperator.cpp.o CMakeFiles/llvm_sol.dir/SolcMain.cpp.o CMakeFiles/llvm_sol.dir/Json/jsoncpp.cpp.o CMakeFiles/llvm_sol.dir/Builder/SolcLLVM.cpp.o  -o llvm_sol 

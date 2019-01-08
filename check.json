@@ -1,0 +1,348 @@
+{
+	"attributes" :
+	{
+		"absolutePath" : "test.sol",
+		"exportedSymbols" :
+		{
+			"SimpleStorage" :
+			[
+				22
+			]
+		}
+	},
+	"children" :
+	[
+		{
+			"attributes" :
+			{
+				"baseContracts" :
+				[
+					null
+				],
+				"contractDependencies" :
+				[
+					null
+				],
+				"contractKind" : "contract",
+				"documentation" : null,
+				"fullyImplemented" : true,
+				"linearizedBaseContracts" :
+				[
+					22
+				],
+				"name" : "SimpleStorage",
+				"scope" : 23
+			},
+			"children" :
+			[
+				{
+					"attributes" :
+					{
+						"constant" : false,
+						"name" : "storedData",
+						"scope" : 22,
+						"stateVariable" : true,
+						"storageLocation" : "default",
+						"type" : "uint8",
+						"value" : null,
+						"visibility" : "internal"
+					},
+					"children" :
+					[
+						{
+							"attributes" :
+							{
+								"name" : "uint8",
+								"type" : "uint8"
+							},
+							"id" : 1,
+							"name" : "ElementaryTypeName",
+							"src" : "29:5:0"
+						}
+					],
+					"id" : 2,
+					"name" : "VariableDeclaration",
+					"src" : "29:16:0"
+				},
+				{
+					"attributes" :
+					{
+						"constant" : false,
+						"documentation" : null,
+						"implemented" : true,
+						"isConstructor" : false,
+						"modifiers" :
+						[
+							null
+						],
+						"name" : "set",
+						"payable" : false,
+						"scope" : 22,
+						"stateMutability" : "nonpayable",
+						"superFunction" : null,
+						"visibility" : "public"
+					},
+					"children" :
+					[
+						{
+							"children" :
+							[
+								{
+									"attributes" :
+									{
+										"constant" : false,
+										"name" : "x",
+										"scope" : 21,
+										"stateVariable" : false,
+										"storageLocation" : "default",
+										"type" : "uint8",
+										"value" : null,
+										"visibility" : "internal"
+									},
+									"children" :
+									[
+										{
+											"attributes" :
+											{
+												"name" : "uint8",
+												"type" : "uint8"
+											},
+											"id" : 3,
+											"name" : "ElementaryTypeName",
+											"src" : "64:5:0"
+										}
+									],
+									"id" : 4,
+									"name" : "VariableDeclaration",
+									"src" : "64:7:0"
+								}
+							],
+							"id" : 5,
+							"name" : "ParameterList",
+							"src" : "63:9:0"
+						},
+						{
+							"attributes" :
+							{
+								"parameters" :
+								[
+									null
+								]
+							},
+							"children" : [],
+							"id" : 6,
+							"name" : "ParameterList",
+							"src" : "73:0:0"
+						},
+						{
+							"children" :
+							[
+								{
+									"children" :
+									[
+										{
+											"attributes" :
+											{
+												"argumentTypes" : null,
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : false,
+												"lValueRequested" : false,
+												"operator" : "=",
+												"type" : "uint8"
+											},
+											"children" :
+											[
+												{
+													"attributes" :
+													{
+														"argumentTypes" : null,
+														"overloadedDeclarations" :
+														[
+															null
+														],
+														"referencedDeclaration" : 2,
+														"type" : "uint8",
+														"value" : "storedData"
+													},
+													"id" : 7,
+													"name" : "Identifier",
+													"src" : "76:10:0"
+												},
+												{
+													"attributes" :
+													{
+														"argumentTypes" : null,
+														"overloadedDeclarations" :
+														[
+															null
+														],
+														"referencedDeclaration" : 4,
+														"type" : "uint8",
+														"value" : "x"
+													},
+													"id" : 8,
+													"name" : "Identifier",
+													"src" : "89:1:0"
+												}
+											],
+											"id" : 9,
+											"name" : "Assignment",
+											"src" : "76:14:0"
+										}
+									],
+									"id" : 10,
+									"name" : "ExpressionStatement",
+									"src" : "76:14:0"
+								},
+								{
+									"children" :
+									[
+										{
+											"attributes" :
+											{
+												"argumentTypes" : null,
+												"hexvalue" : "74727565",
+												"isConstant" : false,
+												"isLValue" : false,
+												"isPure" : true,
+												"lValueRequested" : false,
+												"subdenomination" : null,
+												"token" : "bool",
+												"type" : "bool",
+												"value" : "true"
+											},
+											"id" : 11,
+											"name" : "Literal",
+											"src" : "99:4:0"
+										},
+										{
+											"children" :
+											[
+												{
+													"children" :
+													[
+														{
+															"attributes" :
+															{
+																"argumentTypes" : null,
+																"isConstant" : false,
+																"isLValue" : false,
+																"isPure" : false,
+																"lValueRequested" : false,
+																"operator" : "=",
+																"type" : "uint8"
+															},
+															"children" :
+															[
+																{
+																	"attributes" :
+																	{
+																		"argumentTypes" : null,
+																		"overloadedDeclarations" :
+																		[
+																			null
+																		],
+																		"referencedDeclaration" : 2,
+																		"type" : "uint8",
+																		"value" : "storedData"
+																	},
+																	"id" : 12,
+																	"name" : "Identifier",
+																	"src" : "110:10:0"
+																},
+																{
+																	"attributes" :
+																	{
+																		"argumentTypes" : null,
+																		"commonType" :
+																		{
+																			"typeIdentifier" : "t_uint8",
+																			"typeString" : "uint8"
+																		},
+																		"isConstant" : false,
+																		"isLValue" : false,
+																		"isPure" : false,
+																		"lValueRequested" : false,
+																		"operator" : "+",
+																		"type" : "uint8"
+																	},
+																	"children" :
+																	[
+																		{
+																			"attributes" :
+																			{
+																				"argumentTypes" : null,
+																				"overloadedDeclarations" :
+																				[
+																					null
+																				],
+																				"referencedDeclaration" : 4,
+																				"type" : "uint8",
+																				"value" : "x"
+																			},
+																			"id" : 13,
+																			"name" : "Identifier",
+																			"src" : "123:1:0"
+																		},
+																		{
+																			"attributes" :
+																			{
+																				"argumentTypes" : null,
+																				"overloadedDeclarations" :
+																				[
+																					null
+																				],
+																				"referencedDeclaration" : 4,
+																				"type" : "uint8",
+																				"value" : "x"
+																			},
+																			"id" : 14,
+																			"name" : "Identifier",
+																			"src" : "127:1:0"
+																		}
+																	],
+																	"id" : 15,
+																	"name" : "BinaryOperation",
+																	"src" : "123:5:0"
+																}
+															],
+															"id" : 16,
+															"name" : "Assignment",
+															"src" : "110:18:0"
+														}
+													],
+													"id" : 17,
+													"name" : "ExpressionStatement",
+													"src" : "110:18:0"
+												}
+											],
+											"id" : 18,
+											"name" : "Block",
+											"src" : "106:26:0"
+										}
+									],
+									"id" : 19,
+									"name" : "WhileStatement",
+									"src" : "93:39:0"
+								}
+							],
+							"id" : 20,
+							"name" : "Block",
+							"src" : "73:65:0"
+						}
+					],
+					"id" : 21,
+					"name" : "FunctionDefinition",
+					"src" : "51:87:0"
+				}
+			],
+			"id" : 22,
+			"name" : "ContractDefinition",
+			"src" : "0:140:0"
+		}
+	],
+	"id" : 23,
+	"name" : "SourceUnit",
+	"src" : "0:141:0"
+}
